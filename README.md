@@ -12,7 +12,7 @@ This project is licensed under the GNU General Public License v3.0 (https://www.
 ## Project Description
 The project was designed to preform a case swap on a string no larger than 23 characters. i.e THIS IS wild! - this is WILD!
 The case swapping function, works by comparing each characters ascii value with the value of a-z & A-Z, ensuring it is an alphanumoric character. 
-Depending on if the character is between a-z or A-Z it will then add or substract 32 from the ascii value to get its corrosponding case size.  
+Depending on if the character is between a-z or A-Z it will then xor 32 with the ASCII value to get its corrosponding case size.  
 
 ## Instructions for Producing an Executable
 1. Make sure NASM (The Netwide Assembler) is installed on your Linux system.
